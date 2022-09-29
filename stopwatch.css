@@ -1,0 +1,53 @@
+body{
+    background-image: url("watch.jpg");
+    background-size: cover;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.stopwatch{
+    background-color: rgba(45, 56, 209, 0.977);
+    color: rgb(206, 99, 201);
+    text-align: center;
+    padding: 20px;
+    border-radius: 46px;
+    border: solid 5px rgba(228, 66, 66, 0.742);
+    letter-spacing: 4px;
+}
+button{
+    cursor: pointer;
+    background-color: rgb(97, 84, 60);
+    border: 10px rgb(39, 177, 26);
+    color: rgba(188, 197, 198, 0.957);
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 45px;
+    font-family: inherit;
+    
+}
+button:hover{
+    background-color: rgb(131, 218, 32);
+    color: rgb(75, 48, 194);
+}
+h1{
+    text-shadow: 5px 5px 5px rgb(190, 157, 202);
+    font-size: 42px;
+    font-family: sans-serif;
+}
+p{
+    font-size: 40px;
+    text-shadow: 5px 6px 7px rgb(83, 108, 161);
+}
+#button-start{
+    font-family: serif;
+}
+#button-stop{
+    font-family: serif;
+}
+#button-reset{
+    font-family: serif;
+}
